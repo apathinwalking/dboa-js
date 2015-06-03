@@ -1,15 +1,32 @@
 {
   "name": "dboa-js",
-  "version": "0.0.1",
-  "main": "index.html",
-  "window": {
-    "toolbar": true,
-    "show": true
-  },
+  "version": "0.0.2",
   "dependencies": {
     "knex": "~0.8.6",
     "pg": "~4.3.0",
     "q": "~1.4.1",
     "lodash": "~3.9.3"
-  }
+  },
+  "description": "",
+  "main": "dboa.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apathinwalking/dboa-js.git"
+  },
+  "keywords": [
+    "database",
+    "postgres",
+    "statistics",
+    "clean"
+  ],
+  "author": "Evan Mahone",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/apathinwalking/dboa-js/issues"
+  },
+  "homepage": "https://github.com/apathinwalking/dboa-js#readme"
 }
