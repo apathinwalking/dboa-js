@@ -1,0 +1,13 @@
+{
+  "name": "dboa-js",
+  "version": "0.0.1",
+  "main": "index.html",
+  "window": {
+    "toolbar": true,
+    "show": true
+  },
+  "dependencies": {
+    "knex": "~0.8.6",
+    "pg": "~4.3.0"
+  }
+}
