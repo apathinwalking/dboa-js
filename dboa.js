@@ -61,8 +61,6 @@ Dboa.prototype.getColumnType = function(table_id,column_name){
     return deferred.promise;
 };
 
-Dboa.prototype.
-
 
 module.exports = Dboa;
 
