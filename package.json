@@ -1,6 +1,6 @@
 {
   "name": "dboa-js",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "dependencies": {
     "knex": "~0.8.6",
     "leven": "^1.0.2",
