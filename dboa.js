@@ -1,5 +1,8 @@
-exports.column = require('./lib/column/column.js');
-exports.table = require('./lib/table/table.js');
+exports.column = require('./lib/column/index.js');
+exports.table = require('./lib/table/index.js');
+exports.schema = require('./lib/schema/index.js');
+exports.db = require('./lib/db/index.js');
+
 
 /*var Q = require('q');
 var _columnQuery = require('./lib/column/query.js');
