@@ -1,10 +1,11 @@
 {
   "name": "dboa-js",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "dependencies": {
     "knex": "^0.8.6",
     "leven": "^1.0.2",
     "lodash": "~3.9.3",
+    "moment": "^2.10.3",
     "pg": "^4.4.0",
     "pg-hstore": "^2.3.2",
     "q": "~1.4.1"
