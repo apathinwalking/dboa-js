@@ -2,16 +2,17 @@
   "name": "dboa-js",
   "version": "0.0.10",
   "dependencies": {
+    "bluebird": "^2.9.30",
+    "bookshelf": "^0.8.1",
     "knex": "^0.8.6",
     "leven": "^1.0.2",
     "lodash": "~3.9.3",
     "moment": "^2.10.3",
     "pg": "^4.4.0",
-    "pg-hstore": "^2.3.2",
-    "q": "~1.4.1"
+    "wuzzy": "^0.1.2"
   },
   "description": "A module to help you with cleaning up messy (Postgres) databases",
-  "main": "dboa.js",
+  "main": "index.js",
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
