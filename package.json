@@ -1,6 +1,6 @@
 {
   "name": "dboa-js",
-  "version": "0.1.0",
+  "version": "0.1.01",
   "dependencies": {
     "bluebird": "^2.9.30",
     "bookshelf": "^0.8.1",
