@@ -1,13 +1,11 @@
 {
   "name": "dboa-js",
-  "version": "0.1.02",
+  "version": "0.1.3",
   "dependencies": {
     "bluebird": "^2.9.30",
-    "bookshelf": "^0.8.1",
     "knex": "^0.8.6",
     "leven": "^1.0.2",
     "lodash": "~3.9.3",
-    "moment": "^2.10.3",
     "pg": "^4.4.0",
     "wuzzy": "^0.1.2"
   },
