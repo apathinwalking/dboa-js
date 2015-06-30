@@ -1,6 +1,6 @@
 {
   "name": "dboa-js",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "dependencies": {
     "bluebird": "^2.9.30",
     "knex": "^0.8.6",
@@ -10,7 +10,7 @@
     "wuzzy": "^0.1.2"
   },
   "description": "A module to help you with cleaning up messy (Postgres) databases",
-  "main": "index.js",
+  "main": "lib/index.js",
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
