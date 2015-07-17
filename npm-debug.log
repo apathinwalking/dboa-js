@@ -1,0 +1,100 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/bin/npm', 'publish' ]
+2 info using npm@2.11.0
+3 info using node@v0.10.36
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec { raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: '/mnt/8ffb496f-3ded-4122-8ac3-8f700e36eafd/workspace/dboa-js',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory /home/pumami/.npm/dboa-js/0.2.1/package.tgz not in flight; packing
+9 verbose tar pack [ '/home/pumami/.npm/dboa-js/0.2.1/package.tgz',
+9 verbose tar pack   '/mnt/8ffb496f-3ded-4122-8ac3-8f700e36eafd/workspace/dboa-js' ]
+10 verbose tarball /home/pumami/.npm/dboa-js/0.2.1/package.tgz
+11 verbose folder /mnt/8ffb496f-3ded-4122-8ac3-8f700e36eafd/workspace/dboa-js
+12 info prepublish dboa-js@0.2.1
+13 verbose addLocalTarball adding from inside cache /home/pumami/.npm/dboa-js/0.2.1/package.tgz
+14 silly cache afterAdd dboa-js@0.2.1
+15 verbose afterAdd /home/pumami/.npm/dboa-js/0.2.1/package/package.json not in flight; writing
+16 verbose afterAdd /home/pumami/.npm/dboa-js/0.2.1/package/package.json written
+17 silly publish { name: 'dboa-js',
+17 silly publish   version: '0.2.1',
+17 silly publish   dependencies:
+17 silly publish    { bluebird: '^2.9.30',
+17 silly publish      knex: '^0.8.6',
+17 silly publish      leven: '^1.0.2',
+17 silly publish      lodash: '~3.9.3',
+17 silly publish      pg: '^4.4.0',
+17 silly publish      wuzzy: '^0.1.2' },
+17 silly publish   description: 'A module to help you with cleaning up messy (Postgres) databases',
+17 silly publish   main: 'lib/index.js',
+17 silly publish   devDependencies: {},
+17 silly publish   scripts: { test: 'echo "Error: no test specified" && exit 1' },
+17 silly publish   repository:
+17 silly publish    { type: 'git',
+17 silly publish      url: 'git+https://github.com/apathinwalking/dboa-js.git' },
+17 silly publish   keywords: [ 'database', 'postgres', 'statistics', 'clean' ],
+17 silly publish   author: { name: 'Evan Mahone' },
+17 silly publish   license: 'GPL-3.0',
+17 silly publish   bugs: { url: 'https://github.com/apathinwalking/dboa-js/issues' },
+17 silly publish   homepage: 'https://github.com/apathinwalking/dboa-js#readme',
+17 silly publish   readme: '# dboa-js\nA module to help you with cleaning up messy (Postgres) databases.\nInstallation: make sure that you have the latest version of NodeJS installed, and type into a command line: \nnpm install dboa-js',
+17 silly publish   readmeFilename: 'README.md',
+17 silly publish   gitHead: '5bc18885d58ee364025a568c4b44871689941aba',
+17 silly publish   _id: 'dboa-js@0.2.1',
+17 silly publish   _shasum: '0177ed2441eda28fc91b15dcd414d5896b4b8452',
+17 silly publish   _from: '.' }
+18 verbose getPublishConfig undefined
+19 silly mapToRegistry name dboa-js
+20 silly mapToRegistry using default registry
+21 silly mapToRegistry registry https://registry.npmjs.org/
+22 silly mapToRegistry uri https://registry.npmjs.org/dboa-js
+23 verbose publish registryBase https://registry.npmjs.org/
+24 silly publish uploading /home/pumami/.npm/dboa-js/0.2.1/package.tgz
+25 verbose request uri https://registry.npmjs.org/dboa-js
+26 verbose request sending authorization for write operation
+27 info attempt registry request try #1 at 13:55:00
+28 verbose request using bearer token for auth
+29 verbose request id 5099626f686a464d
+30 http request PUT https://registry.npmjs.org/dboa-js
+31 http 403 https://registry.npmjs.org/dboa-js
+32 verbose headers { 'content-type': 'application/json',
+32 verbose headers   'cache-control': 'max-age=60',
+32 verbose headers   'content-length': '95',
+32 verbose headers   'accept-ranges': 'bytes',
+32 verbose headers   date: 'Fri, 17 Jul 2015 17:55:01 GMT',
+32 verbose headers   via: '1.1 varnish',
+32 verbose headers   connection: 'keep-alive',
+32 verbose headers   'x-served-by': 'cache-jfk1020-JFK',
+32 verbose headers   'x-cache': 'MISS',
+32 verbose headers   'x-cache-hits': '0',
+32 verbose headers   'x-timer': 'S1437155700.645288,VS0,VE735' }
+33 verbose request invalidating /home/pumami/.npm/registry.npmjs.org/dboa-js on PUT
+34 error publish Failed PUT 403
+35 verbose stack Error: "You cannot publish over the previously published version 0.2.1." : dboa-js
+35 verbose stack     at CachingRegistryClient.<anonymous> (/usr/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:247:14)
+35 verbose stack     at Request._callback (/usr/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:170:14)
+35 verbose stack     at Request.self.callback (/usr/lib/node_modules/npm/node_modules/request/request.js:368:22)
+35 verbose stack     at Request.emit (events.js:98:17)
+35 verbose stack     at Request.<anonymous> (/usr/lib/node_modules/npm/node_modules/request/request.js:1219:14)
+35 verbose stack     at Request.emit (events.js:117:20)
+35 verbose stack     at IncomingMessage.<anonymous> (/usr/lib/node_modules/npm/node_modules/request/request.js:1167:12)
+35 verbose stack     at IncomingMessage.emit (events.js:117:20)
+35 verbose stack     at _stream_readable.js:944:16
+35 verbose stack     at process._tickCallback (node.js:442:13)
+36 verbose statusCode 403
+37 verbose pkgid dboa-js
+38 verbose cwd /mnt/8ffb496f-3ded-4122-8ac3-8f700e36eafd/workspace/dboa-js
+39 error Linux 4.0.6-200.fc21.x86_64
+40 error argv "node" "/usr/bin/npm" "publish"
+41 error node v0.10.36
+42 error npm  v2.11.0
+43 error code E403
+44 error "You cannot publish over the previously published version 0.2.1." : dboa-js
+45 error If you need help, you may report this error at:
+45 error     <https://github.com/npm/npm/issues>
+46 verbose exit [ 1, true ]
