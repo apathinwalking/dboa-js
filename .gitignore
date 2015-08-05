@@ -3,3 +3,5 @@ dboa-js.iml
 node_modules/*
 tests
 tests/*
+old-lib
+old-lib/*
