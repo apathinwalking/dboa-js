@@ -341,3 +341,7 @@ insert into mock.data4 (address, status, grp, app_date, status2, done, type_a, f
 insert into mock.data4 (address, status, grp, app_date, status2, done, type_a, fin_date) values ('5834 Forster Pass', 'stalled', 2, '2/25/2015', 'pre', true, 'S', '3/15/2015');
 insert into mock.data4 (address, status, grp, app_date, status2, done, type_a, fin_date) values ('7 Oriole Junction', 'updated', 3, '11/29/2014', 'post', true, 'L', '1/27/2015');
 insert into mock.data4 (address, status, grp, app_date, status2, done, type_a, fin_date) values ('23187 Lien Terrace', 'depreciated', 1, '8/18/2014', 'inprogress', true, 'M', '9/26/2014');
+
+ALTER TABLE "mock"."data4"
+ADD COLUMN "block" smallint;
+UPDATE "mock"."data4" SET "block"=NULLIF(floor(random()*(3)+1),3);

@@ -340,3 +340,7 @@ insert into mock.data2 (address, status, grp, type2, app_date, status2, done) va
 insert into mock.data2 (address, status, grp, type2, app_date, status2, done) values ('78414 Farragut Point', 'updated', 3, 'mid', '3/6/2015', 'post', false);
 insert into mock.data2 (address, status, grp, type2, app_date, status2, done) values ('183 Pankratz Drive', 'depreciated', 1, 'start', '1/30/2015', 'inprogress', false);
 insert into mock.data2 (address, status, grp, type2, app_date, status2, done) values ('3 Milwaukee Circle', 'updated', 2, 'end', '4/20/2015', 'post', false);
+
+	ALTER TABLE "mock"."data2"
+	ADD COLUMN "block" smallint;
+	UPDATE "mock"."data2" SET "block"=NULLIF(floor(random()*(3)+1),3);
