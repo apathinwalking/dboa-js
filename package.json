@@ -7,7 +7,9 @@
     "leven": "^1.0.2",
     "lodash": "~3.9.3",
     "pg": "^4.4.0",
-    "wuzzy": "^0.1.2"
+    "wuzzy": "^0.1.2",
+    "pg-query-stream": "~0.7.0",
+    "tidyaddr-js": "0.0.3"
   },
   "description": "A module to help you with cleaning up messy (Postgres) databases",
   "main": "lib/index.js",
