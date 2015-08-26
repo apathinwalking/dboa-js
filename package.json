@@ -1,6 +1,6 @@
 {
   "name": "dboa-js",
-  "version": "0.3.32",
+  "version": "0.3.33",
   "dependencies": {
     "bluebird": "^2.9.30",
     "knex": "^0.8.6",
@@ -9,7 +9,7 @@
     "pg": "^4.4.0",
     "wuzzy": "^0.1.2",
     "pg-query-stream": "~0.7.0",
-    "tidyaddr-js": "0.0.3"
+    "tidyaddr-js": "latest"
   },
   "description": "A module to help you with cleaning up messy (Postgres) databases",
   "main": "lib/index.js",
